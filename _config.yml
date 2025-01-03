@@ -22,7 +22,7 @@ email      : 0k@360verse.co #this is also the email contact forms will go to
 description: "Agency Bootstrap theme converted to a Jekyll theme, plus new features: Google Analytics, Markdown support, custom pages, and more!"
 author     : Cyber Unicorn
 logo:     #optional, defaults to site title
-  path: assets\img\clients\creative-market.jpg
+  path: assets\img\logo.png
   height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
