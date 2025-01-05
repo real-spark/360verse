@@ -16,6 +16,7 @@ module.exports = {
         'footer-bg':'linear-gradient(270deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 137, 56, 0.10) 100%)'
       },
       colors : {
+        'accent': "#F00",
         'gradient-color': "linear-gradient(270deg, #F00 0%, #FF8938 100%)",
         'gradient-color-primary': "linear-gradient(270deg, #F00 0%, #FF8938 100%)",
       }
