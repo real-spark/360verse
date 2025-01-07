@@ -1,0 +1,208 @@
+<!-- header start -->
+<header>
+    <div class="navbar bg-base-100 w-full lg:w-[90%] mx-auto my-3 flex items-center justify-between">
+        <div class="">
+            <div class="dropdown md:hidden">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a> Home</a></li>
+                    <!-- <li>
+                <a>Menus</a>
+              </li> -->
+                    <li><a>About</a></li>
+                    <li><a>Reviews</a></li>
+                    <!-- <li><a>Contact</a></li> -->
+                </ul>
+            </div>
+            <div class="inline-flex items-center gap-2">
+                <img src="./images/logo.svg" alt="360Verse Labs Logo" class="logo" />
+                <a
+                    class="bg-clip-text text-transparent bg-gradient-to-r from-[#F00] to-[#FF8938] text-4xl font-extrabold">360Verse</a>
+            </div>
+        </div>
+        <div class="navbar-center hidden lg:flex md:flex">
+            <ul
+                class="menu menu-horizontal px-1 flex items-center gap-4 font-medium text-base md:text-xs md:gap-2 lg:text-base">
+                <li><a>Home</a></li>
+                <!-- <li>
+              <details>
+                <summary>Menus</summary>
+                <ul class="p-2">
+                  <li>
+                    <a>Coffee</a>
+                    <ul>
+                      <li><a>Cold Coffee</a></li>
+                      <li><a>Black Coffee</a></li>
+                      <li><a>Hot Coffee</a></li>
+                    </ul>
+                  </li>
+                  <li><a>Cha</a></li>
+                </ul>
+              </details>
+            </li> -->
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <!-- <li><a>Contact</a></li> -->
+            </ul>
+        </div>
+        <!--             class="bg-gradient-primary px-5 py-4 flex items-center gap-2 text-white text-lg font-semibold rounded-lg"
+ -->
+        <div class="flex items-center gap-3">
+            <div class="hidden lg:flex">
+                <a href="mailto:0k@360verse.co"
+                    class="btn bg-gradient-primary items-center text-white text-lg font-semibold rounded-lg">
+                    0k@360verse.co
+                    <svg width="24" height="25">
+                        <use xlink:href="/spritemap.svg#arrow-white"></use>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- <div class="dropdown dropdown-end">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+              <div class="indicator">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.79 10.47V17.79C17.79 20.12 15.9 22 13.58 22H6.21C3.89 22 2 20.11 2 17.79V10.47C2 8.14001 3.89 6.26001 6.21 6.26001H13.58C15.9 6.26001 17.79 8.15001 17.79 10.47Z"
+                    stroke="#292D32"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M5.5 4V2.25"
+                    stroke="#292D32"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9.5 4V2.25"
+                    stroke="#292D32"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.5 4V2.25"
+                    stroke="#292D32"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M22 13.16C22 15.48 20.11 17.37 17.79 17.37V8.94995C20.11 8.94995 22 10.83 22 13.16Z"
+                    stroke="#292D32"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M2 12H17.51"
+                    stroke="#292D32"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span
+                  class="badge badge-sm indicator-item bg-gradient-primary border-2 border-white px-3 py-3 rounded-full text-white"
+                  >3</span
+                >
+              </div>
+            </div>
+            <div
+              tabindex="0"
+              class="mt-3 z-[1] card card-compact dropdown-content w-52 bg-base-100 shadow"
+            >
+              <div class="card-body">
+                <span class="font-bold text-lg">3 Items</span>
+                <span class="text-info">Subtotal: $99</span>
+                <div class="card-actions">
+                  <button
+                    class="btn btn-primary btn-block bg-gradient-primary text-white border-none"
+                  >
+                    View cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="dropdown dropdown-end">
+            <div
+              tabindex="0"
+              role="button"
+              class="rounded-full bg-gradient-primary h-11 w-11 flex items-center justify-center"
+            >
+              <div class="w-10 h-10">
+                <img
+                  alt="Tailwind CSS Navbar component"
+                  src="./images/avatar.jpg"
+                  class="rounded-full"
+                />
+              </div>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li>
+                <a class="justify-between">
+                  Profile
+                  <span class="badge bg-gradient-primary text-white border-none"
+                    >New</span
+                  >
+                </a>
+              </li>
+              <li><a>Settings</a></li>
+              <li><a>Logout</a></li>
+            </ul>
+          </div> -->
+        </div>
+    </div>
+    <!-- hero section start -->
+    <section class="w-[90%] mx-auto grid lg:grid-cols-2 grid-cols-1 row-auto items-center my-28 gap-10">
+        <div>
+            <h1 class="text-6xl font-extrabold leading-[70px] tracking-wide">
+                Definitely not a cult
+            </h1>
+            <p class="text-[#777] font-medium w-[90%] my-8">
+                360Verse Labs, Inc. is the umbrella under which beautiful software &
+                thriving communities are built and encouraged. Scroll to learn
+                about everything that we are working on.
+            </p>
+            <a href="mailto:0k@360verse.co"
+                class="btn bg-gradient-primary items-center text-white text-lg font-semibold rounded-lg">
+                0k@360verse.co
+                <img src="./images/icons/arrow-white.svg" alt="360Verse Labs Arrow Icon" />
+            </a>
+        </div>
+        <div class="relative">
+            <img src="./images/banner.png" alt="banner.jpg" class="" />
+            <div
+                class="bg-white shadow-2xl rounded-2xl px-3 lg:px-8 lg:py-8 py-3 inline-flex items-center gap-2 absolute bottom-0 lg:left-36 left-16 md:left-56 md:bottom-8">
+                <img src="./images/icons/star.svg" alt="360Verse Labs Star Icon" />
+                <div>
+                    <h1 class="text-[#1C1C1C] font-extrabold text-2xl">5.00</h1>
+                    <p class="text-[#777] text-xs lg:text-base">
+                        Trust Pilot Ratings
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
